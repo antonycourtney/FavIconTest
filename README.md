@@ -18,6 +18,6 @@ This is a minimal Chrome Extension to demonstrate a performance issue when loadi
 
 ![Screenshot of FavIconTest Network timeline](images/screenshot.png "Network timeline screenshot")
 
-Note in the timeline that the first two favicons (CNN and Wikipedia) are not from the favicon cache, while the latter two items (yahoo and wework) are served from the cache.  You may have to open the four URLs used for testing here to prime the favicon cache -- see [iconic_history.js]('iconic_history.js') for the exact URLs.
+Note in the timeline that the first two favicons (CNN and Wikipedia) are not from the favicon cache, while the latter two items (yahoo and wework) are served from the cache.  You may have to open the four URLs used for testing here to prime the favicon cache -- see [iconic_history.js](iconic_history.js) for the exact URLs.
 
 This behavior is consistent across repeated reloads of the page.
